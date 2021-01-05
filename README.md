@@ -4,13 +4,13 @@ KÄYTTÖ:
 
 1. Käynnistä sovellus.
 2. Syötä halutut hakutiedot ja tiedostosijainti.
-3. Ohjelma hakee täysin automaattisesti "https://www.verkkokauppa.com/" -sivustolta dataa, tallentaa ja suodattaa datan exel -tiedostoon.
+3. Ohjelma hakee täysin automaattisesti verkkosivustolta dataa, tallentaa ja suodattaa datan exel -tiedostoon.
 
 TOIMINTALOGIIKKA:
 
 1. Hakee käyttäjältä tiedot forms kyselyn avulla ja tallentaa ne muuttujiin.
 
-2. Avaa selaimen osoitteessa "https://www.verkkokauppa.com/". Syöttää kyselyssä saadun tiedon hakukenttään ja painaa automaattisesti 
+2. Avaa selaimen osoitteessa X. Syöttää kyselyssä saadun tiedon hakukenttään ja painaa automaattisesti 
   "suurennuslasia". Selaimessa avautuu lista tuotteita.
   
 3. Datan hakeminen tapahtuu "Data Scraping" työkalulla, joka tallentaa tiedot väliaikaiseen taulukkoon (datatable). Ohjelma osaa vaihtaa
